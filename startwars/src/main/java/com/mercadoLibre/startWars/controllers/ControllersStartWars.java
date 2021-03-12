@@ -14,7 +14,7 @@ import java.util.List;
 public class ControllersStartWars {
     @Autowired
     CharacterService character;
-
+    // AGUANTE CORDOBA!!! Y LE FERNET
     @PostMapping("/name")
     public List<CharacterDto> findByName(@RequestBody CharacterDto characterDto){
         return character.findByName(characterDto.getName());
